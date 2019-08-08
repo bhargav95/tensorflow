@@ -416,7 +416,7 @@ if __name__ == '__main__':
   parser.add_argument(
       '--wanted_words',
       type=str,
-      default='yes,no,up,down,left,right,on,off,stop,go',
+      default='off',
       help='Words to use (others will be added to an unknown label)',)
   parser.add_argument(
       '--train_dir',
